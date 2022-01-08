@@ -1,0 +1,270 @@
+:root {
+    --brand-color: #2196f3;
+    --text-dark-color: #212121;
+    --text-light-color: #757575;
+    --background-dark-box-color: #2f303a;
+    --background-light-gray-color: #f5f4fa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* === ВЕБ-СТУДИЯ == */
+
+/* == Header == */
+.header-section {
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height 31px */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-color {
+    color: var(--brand-color);
+}
+
+.logo-black {
+    color: #000;
+}
+
+.logo-white {
+    color: #fff;
+}
+
+.menu-nav {
+}
+
+.menu-nav-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    /* 16 px */
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.menu-nav-text-dark {
+    color: var(--text-dark-color);
+}
+
+.menu-nav-text-light {
+    color: var(--text-light-color);
+}
+
+.menu-nav-text-color,
+.menu-nav-text:hover,
+.menu-nav-text:focus {
+    color: var(--brand-color);
+}
+
+/* == Main == */
+
+.hero-caption {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* 60px or 136% */
+    color: #ffffff;
+    background-color: var(--background-dark-box-color);
+    /* Цвет фонового блока ^ */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.order-service-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, 30px or 187% */
+    color: #ffffff;
+    background: var(--brand-color);
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    outline: none;
+    border: none;
+    padding: 10px 32px 10px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background: #188ce8;
+}
+
+/* = Особенности = */
+
+/* -- Позже будет невидимым -- */
+.features-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.87;
+    /* 42px or 187% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-dark-color);
+}
+
+.features-subcaption {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    /* 16px or Auto */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-dark-color);
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    /* 24px or 171% */
+    letter-spacing: 0.03em;
+
+    color: var(--text-light-color);
+}
+
+/* = Чем мы занимаемся = */
+.doing-section {
+    /* Стиль секции "Чем мы занимаемся" */
+}
+
+/* = Команда = */
+.team-section {
+    /* Стиль секции "Наша Команда" */
+}
+
+.doing-caption,
+.team-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.87;
+    /* 42px or 187% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-dark-color);
+}
+
+.team-subcaption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height 19px or Auto */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-dark-color);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height 19px or Auto */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-light-color);
+}
+
+/* = Footer = */
+
+.footer-section {
+    background-color: var(--background-dark-box-color);
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 1.71;
+    /* 24px or 171% */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-text-light,
+.footer-text-gray:hover,
+.footer-text-gray:focus {
+    color: #ffffff;
+}
+
+.footer-text-gray,
+.footer-text-light:hover,
+.footer-text-light:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* === ПОРТФОЛИО == */
+
+/* == Портфолио == */
+.portfolio-section {
+    /* Стиль секции "Портфолио" */
+}
+
+.portfolio-caption {
+    /* Стиль главного невидимого заголовка h1 страницы Портфолио */
+    text-align: center;
+}
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, 26px or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-dark-color);
+    background-color: var(--background-light-gray-color);
+
+    outline: none;
+    border: none;
+    padding: 6px 22px 6px 22px;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #ffffff;
+    background-color: var(--brand-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-projects-list-link {
+    text-decoration: none;
+}
+
+.portfolio-subcaption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, 36px or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: var(--text-dark-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, 30px or 187% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--text-light-color);
+}
